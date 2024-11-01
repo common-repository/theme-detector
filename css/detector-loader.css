@@ -1,0 +1,100 @@
+/* 
+ *Loader
+ */
+
+   .site-detect-form i.icon {
+    height: 1em!important;
+    padding: 1.14285714em 1.07142857em!important;
+}
+.site-detect-form .dropdown.icon {
+    /* font-family: Dropdown; */
+    line-height: 1;
+    height: 1em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: auto;
+}
+.site-detect-form .dropdown.icon {
+    position: relative;
+    font-size: .85714286em;
+    margin: 0 0 0 1em;
+}
+.site-detect-form i.icon, i.icons {
+    font-size: 1em;
+}
+.site-detect-form i.icon {
+    display: inline-block;
+    opacity: 1;
+    margin: 0 .25rem 0 0;
+    width: 1.18em;
+    height: 1em;
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+   .site-detect-form  i.icon:before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    margin: -.64285714em 0 0 -.64285714em;
+    width: 1.28571429em;
+    height: 1.28571429em;
+    border-radius: 500rem;
+    border: .2em solid rgba(0,0,0,.1);
+}
+
+.site-detect-form i.icon:before {
+    background: 0 0!important;
+}
+      i.icon:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 0 1px transparent;
+    margin: -.64285714em 0 0 -.64285714em;
+    width: 1.28571429em;
+    height: 1.28571429em;
+    -webkit-animation: dropdown-spin .6s linear;
+    animation: dropdown-spin .6s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    border-radius: 500rem;
+    border-color: #767676 transparent transparent;
+    border-style: solid;
+    border-width: .2em;
+}
+        
+ @-webkit-keyframes dropdown-spin {
+     from {
+         -webkit-transform: rotate(0);
+         transform: rotate(0)
+     }
+     to {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg)
+     }
+ }
+ 
+ @keyframes dropdown-spin {
+     from {
+         -webkit-transform: rotate(0);
+         transform: rotate(0)
+     }
+     to {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg)
+     }
+ }
